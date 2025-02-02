@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заявки</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Заполните заявку</h1>
+        <form id="signupForm">
+            <input type="text" id="name" placeholder="Имя" required>
+            <input type="number" id="age" placeholder="Возраст" required>
+            <select id="gender" required>
+                <option value="">Выберите пол</option>
+                <option value="Мужской">Мужской</option>
+                <option value="Женский">Женский</option>
+            </select>
+            <input type="tel" id="phone" placeholder="Телефон" required>
+            <input type="text" id="telegram" placeholder="Telegram (юзер)" required>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <a href="./index.html" class="home">На главную</a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
